@@ -1,0 +1,10 @@
+web:
+  build: .
+  volumes:
+    - .:/home/jovyan/work
+  command:
+    - /bin/bash
+    - start.sh
+  ports:
+    - 8888
+
